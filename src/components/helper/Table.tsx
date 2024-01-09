@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Button from "./Button";
 import ChevronRight from "../../assets/icons/ChevronRight";
 import ChevronLeft from "../../assets/icons/ChevronLeft";

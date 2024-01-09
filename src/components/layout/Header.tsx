@@ -1,4 +1,3 @@
-import React from "react";
 import QuestionMark from "../../assets/icons/QuestionMarak";
 import MessageIcon from "../../assets/icons/Message";
 import ArrowDownIcon from "../../assets/icons/ArrowDown";

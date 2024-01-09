@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import PaymentHeader from "./component/Header";
 import PaymentBody from "./component/Body";
 

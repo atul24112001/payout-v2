@@ -1,5 +1,6 @@
 import Layout from "./components/layout";
 import {
+  Navigate,
   Route,
   RouterProvider,
   Routes,
@@ -17,9 +18,11 @@ function Root() {
   return (
     <Layout>
       <Routes>
+        <Route path="/" element={<Navigate to={"/payment"} />} />
         {routes.map((route) => {
           return <Route path={route.link} Component={route.Component} />;
         })}
+        <Route path="*" element={<Navigate to={"/payment"} />} />
       </Routes>
     </Layout>
   );
