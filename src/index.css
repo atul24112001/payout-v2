@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-background: 30, 38, 64;
+  --secondary-background: 255, 255, 255;
+  --third-background: 242, 242, 242;
+
+  --third: 128, 128, 128;
+  --primary: 26, 24, 30;
+  --secondary: 77, 77, 77;
+
+  --primary-border: 217, 217, 217
+}
+
+* {
+  box-sizing: border-box;
+  color: rgb(var(--primary));
+}
