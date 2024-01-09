@@ -17,4 +17,5 @@
 * {
   box-sizing: border-box;
   color: rgb(var(--primary));
+  font-family: "Inter", sans-serif;
 }
